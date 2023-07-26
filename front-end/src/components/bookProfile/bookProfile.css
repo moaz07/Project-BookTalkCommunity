@@ -1,0 +1,53 @@
+.profile-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-details {
+  width: 25%;
+}
+
+.discussion {
+  width: 75%;
+  height: 600px;
+  background: white;
+  border-radius: 20px;
+}
+
+.book-pic {
+  width: 80%;
+  border-radius: 20px;
+  border: 10px solid white;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 20px;
+  background: white;
+}
+
+tr {
+  height: 25px;
+}
+
+.td-1 {
+  width: 30%;
+  text-align: left;
+  font-size: 10px;
+  color: gray;
+}
+
+.td-2 {
+  width: 75%;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.added-by {
+  color: gray;
+  font-size: 10px;
+}

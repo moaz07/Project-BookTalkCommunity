@@ -1,0 +1,257 @@
+.profile-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-details {
+  width: 25%;
+}
+
+.user-posts,
+.setting {
+  width: 75%;
+  background: white;
+  padding: 10px;
+  border-radius: 20px;
+  height: 600px;
+}
+
+.setting-header {
+  padding: 10px;
+  margin-bottom: 80px;
+}
+
+.user-pic {
+  border: 10px solid white;
+  border-radius: 50%;
+  width: 80%;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 20px;
+  background: white;
+}
+
+tr {
+  height: 25px;
+}
+
+.td-1 {
+  width: 30%;
+  text-align: left;
+  font-size: 10px;
+  color: gray;
+}
+
+.td-2 {
+  width: 75%;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.quote {
+  border-radius: 20px;
+  margin: 10px 30px;
+  padding: 20px;
+  background: rgb(255, 250, 175);
+  color: #0171d3;
+}
+
+.add-book {
+  position: fixed;
+  bottom: 50px;
+  right: 38%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #0171d3;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  cursor: pointer;
+}
+
+.add-book:hover {
+  background-color: #0262b6;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background-color: #fff;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.input-add-book-div,
+.input-update-user-div,
+.btn-add-book-div,
+.btn-update-user-div {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.btn-update-user-div {
+  margin-top: 100px;
+}
+
+.input-add-book,
+.input-update-user,
+.btn-add-book,
+.btn-update-user {
+  height: 100%;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 10px;
+}
+
+input {
+  outline: none;
+  padding: 0 15px;
+  border: 1px solid#CACACA;
+}
+
+input:focus {
+  border: 3px solid#0262b675;
+}
+
+select {
+  padding: 10px;
+  border: 1px solid#CACACA;
+  cursor: pointer;
+  outline: none; /* Remove the default outline on focus */
+}
+
+select:invalid {
+  color: gray;
+}
+
+select option {
+  color: black;
+}
+
+.btn-add-book,
+.btn-update-user {
+  color: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: #42b72a;
+  border: none;
+  font-size: 16px;
+}
+
+.btn-add-book:hover {
+  background-color: #3aa425;
+}
+
+.btn-add-book:disabled {
+  background-color: #bfbfbf;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.user-posts-items {
+  height: 500px;
+  overflow-y: auto;
+}
+
+.user-posts-book-item {
+  padding: 10px 25px;
+  margin: 10px 0;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background: #f1f1f1;
+}
+
+.user-posts-book-item:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.post-item-book-img img {
+  display: block;
+  height: 80px;
+  width: 60px;
+}
+
+.user-delete-book {
+  background: none;
+  height: 30px;
+  width: 60px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.user-delete-book:hover {
+  background: red;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.posts-choose {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn-posts-choose {
+  width: 50%;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid gray;
+  background: none;
+}
+
+.btn-posts-choose:hover {
+  background: #0171d3;
+  color: white;
+}
+
+.show-review {
+  display: flex;
+}

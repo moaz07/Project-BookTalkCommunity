@@ -1,0 +1,87 @@
+.all-reviews {
+  height: 480px;
+  overflow-y: auto;
+}
+
+.review-item {
+  align-items: center;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: #f1f1f1;
+  margin: 0 10px 10px;
+}
+
+.review-header {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.review-header-info {
+  display: flex;
+  align-items: center;
+}
+
+.review-user-photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: block;
+}
+
+.review-username {
+  display: block;
+  color: darkblue;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.review-header-date {
+  font-size: 12px;
+  color: gray;
+}
+
+.review-content {
+  text-align: left;
+  margin-left: 40px;
+  border-top: 1px solid #dadde1;
+}
+
+.add-review-form {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin: 0 10px;
+  border-radius: 10px;
+  border: 1px solid #0262b6;
+}
+
+.input-review {
+  width: 90%;
+  height: 100%;
+  border: none;
+  background: none;
+  border-radius: 10px;
+}
+
+.btn-add-review {
+  width: 10%;
+  height: 100%;
+  color: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: #0171d3;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.btn-add-review:hover {
+  background-color: #0262b6;
+}
+
+.h2-review {
+  padding: 10px;
+}

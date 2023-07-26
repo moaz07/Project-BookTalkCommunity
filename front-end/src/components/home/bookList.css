@@ -1,0 +1,8 @@
+.list {
+  height: 600px;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  overflow-y: auto;
+}

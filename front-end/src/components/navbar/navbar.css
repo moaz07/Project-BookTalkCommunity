@@ -1,0 +1,160 @@
+.navbar {
+  background-color: #f2f2f2;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-logo:hover {
+  color: darkgoldenrod;
+}
+
+.g-logo {
+  width: 50px;
+}
+
+.navbar-search {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.navbar-search input[type="text"] {
+  width: 100%;
+  padding: 8px 20px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+}
+
+.search-result {
+  position: absolute;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.result-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.search-result-link {
+  text-decoration: none;
+}
+
+.result-item-thumbnail {
+  width: 30px;
+  height: 40px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.result-item-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.result-item-author {
+  font-size: 12px;
+  color: gray;
+  margin-left: 10px;
+}
+
+.result-item:hover {
+  background-color: #f5f5f5;
+}
+
+.navbar-profile {
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar-profile:hover {
+  color: darkgoldenrod;
+}
+
+.navbar-profile-details {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.profile-link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-profile-photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.navbar-profile-name {
+  margin-right: 10px;
+}
+
+.navbar-dropdown-menu {
+  position: absolute;
+  right: -20px;
+  width: 155px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: none;
+  z-index: 1000;
+}
+
+.navbar-profile:hover .navbar-dropdown-menu {
+  display: block;
+}
+
+.navbar-dropdown-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.navbar-dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+
+.navbar-dropdown-link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-dropdown-logout {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
